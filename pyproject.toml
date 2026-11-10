@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourdoughclock"
+version = "1.0.0"
+description = "Feed-to-bake presets, temperature-adjusted rise estimates and a crumb-score batch log for sourdough bakers."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.3,<10"]
+
+[project.scripts]
+sdc = "sdc:main"
+
+[tool.setuptools]
+py-modules = ["sdc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

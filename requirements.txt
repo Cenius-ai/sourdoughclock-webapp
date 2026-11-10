@@ -1,0 +1,7 @@
+# SourDoughClock runtime dependencies: none.
+# The tool is a single file (sdc.py) built only on the Python standard library.
+#
+# The only third-party package is the test runner used by tests/test_sdc.py.
+# The range keeps the already-installed pytest on modern distros (no downgrade)
+# while still resolving on Python 3.9, where pytest 9 is not available.
+pytest>=8.3.3,<10

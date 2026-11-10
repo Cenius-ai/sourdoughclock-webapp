@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Test tooling
+.pytest_cache/
+.ruff_cache/
+
+# Demo + local data
+.sdc-demo/
+.sourdoughclock.json
+
+# Environment
+.env
