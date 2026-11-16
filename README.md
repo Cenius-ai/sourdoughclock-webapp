@@ -23,7 +23,7 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 ## Architecture
 
-Starting up is just `./install.sh`: it installs what is needed and pre-fills the database so you have data to work with straight away. The Full-stack app codebase (26 files) is self-contained — no external services needed to evaluate it. Top-level layout: `tests/`. For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
+Starting up is just `./install.sh`: it installs what is needed and pre-fills the database so you have data to work with straight away. The Full-stack app codebase (17 files) is self-contained — no external services needed to evaluate it. Top-level layout: `tests/`. For environment-specific setup, see [`INSTALL.md`](INSTALL.md).
 
 ## Features
 
